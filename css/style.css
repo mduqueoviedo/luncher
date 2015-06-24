@@ -1,0 +1,12 @@
+body { 
+  padding-top: 70px; 
+  font-family: 'Architects Daughter', cursive;
+}
+
+.navbar{
+  padding-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
