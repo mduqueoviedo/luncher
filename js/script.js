@@ -7,7 +7,8 @@ $(document).ready(function(){
             "Austrian Nikolai Place",
             "Pizza a Posto",
             "Dolores",
-            "Esra"
+            "Esra",
+            "Pizza place next to Kaschk"
           ];
 
   //Show all places to pick which ones will be selected
