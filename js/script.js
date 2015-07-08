@@ -15,7 +15,7 @@ $(document).ready(function(){
   //Show all places to pick which ones will be selected
   var items = [];
   $.each(PLACES, function(i, item) {
-    items.push('<li><input class="place-checkbox" type="checkbox" value="' + i + '">&nbsp;' + item + '</li>');
+    items.push('<li><label><input class="place-checkbox" type="checkbox" value="' + i + '">&nbsp;' + item + '</label></li>');
   });
   $('#places_list').append( items.join('') );
   $("#result_window").val(Cookies.get("luncher_previous"));
