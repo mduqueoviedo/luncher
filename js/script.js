@@ -8,7 +8,8 @@ $(document).ready(function(){
             "Pizza a Posto",
             "Dolores",
             "Esra",
-            "Pizza place next to Kaschk"
+            "Pizza place next to Kaschk",
+            "Makoto Japanese"
           ];
 
   //Show all places to pick which ones will be selected
