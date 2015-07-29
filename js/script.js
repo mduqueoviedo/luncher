@@ -4,7 +4,6 @@ $(document).ready(function(){
             "Meat Place Under the Bridge",
             "Asian Place formerly know as Udon Mafia Place",
             "THE Vietnamese",
-            "Austrian Nikolai Place",
             "Pizza a Posto",
             "Dolores",
             "Esra",
@@ -15,7 +14,7 @@ $(document).ready(function(){
   //Show all places to pick which ones will be selected
   var items = [];
   $.each(PLACES, function(i, item) {
-    items.push('<li><label><input class="place-checkbox" type="checkbox" value="' + i + '">&nbsp;' + item + '</label></li>');
+    items.push('<li><label><input class="place-checkbox" checked="true" type="checkbox" value="' + i + '">&nbsp;' + item + '</label></li>');
   });
   $('#places_list').append( items.join('') );
   $("#result_window").val(Cookies.get("luncher_previous"));
